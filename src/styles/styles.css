@@ -4,7 +4,7 @@
     text-align: center;
     background: black;
 }
-.bigCounter h1{
+.bigCounter div{
     display: inline-block;
     font-size: 60px;
     line-height: 60px;

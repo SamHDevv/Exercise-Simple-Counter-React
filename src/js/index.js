@@ -8,8 +8,15 @@ import "bootstrap";
 //include your index.scss file into the bundle
 import "../styles/index.scss";
 
+import "../styles/styles.css";
+
 //import your own components
-import { Home } from "./component/home.js";
+import { SecondsCounter } from "./component/SecondsCounter.js";
 
 //render your react application
-ReactDOM.render(<Home />, document.querySelector("#app"));
+ReactDOM.render(
+	<SecondsCounter
+	// seconds={parseInt(prompt("Ingrese el número máximo de segundos: "))}
+	/>,
+	document.querySelector("#app")
+);
